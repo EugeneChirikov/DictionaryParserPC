@@ -4,7 +4,7 @@ import com.mates120.dictionaryparser.debug.SystemOut;
 
 public class Main
 {
-	private static final String FILES_PATH = "/home/eugene/Documents/testdict";
+	private static final String FILES_PATH = System.getProperty("user.dir") + "/";
 	
 	public static void main(String[] argv)
 	{
